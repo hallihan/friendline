@@ -8,10 +8,10 @@ For the time being, it's up and running at: [http://friendline.azurewebsites.net
 
 This is a basic friend/follower info browser.  I wrote from the ground up (not using express or connect) so that I'd have to understand more of the low-level interactions between node and the clients.  Session management is a simple cookie(rid initially, then twauth).  In the current design, the accessTokenSecret is held in-memory on the server, so client logins will expire if the server process is recycled.
 
-##Dependencies:
-   *[cookies](https://www.npmjs.org/package/cookies): ~0.4.0
-   *[node-twitter-api](https://www.npmjs.org/package/node-twitter-api): ~1.1.3
-   *[nconf](https://www.npmjs.org/package/nconf): ~0.6.9
+##Dependencies
+   * [cookies](https://www.npmjs.org/package/cookies): ~0.4.0
+   * [node-twitter-api](https://www.npmjs.org/package/node-twitter-api): ~1.1.3
+   * [nconf](https://www.npmjs.org/package/nconf): ~0.6.9
 
 ##How do I get this working?
 
@@ -21,7 +21,7 @@ You'll also need to edit 'app:callbackUri' in the settings file to reflect where
 
 Launch locally by running `node server.js` then open your browser to [http://localhost:1337/](http://localhost:1337/)
 
-##License:
+###License
 
 Apache License Version 2.0 Included as LICENSE.TXT
 
