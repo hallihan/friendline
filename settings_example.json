@@ -1,0 +1,9 @@
+﻿{
+    "twitter": {
+        "consumerKey": "[API Key from Twitter Goes Here]",
+		"consumerSecret": "[API Secret from Twitter Goes Here]"
+    },
+	"app": {
+		"callbackUri": "http://yourwebsitegoeshere.com/twauth"
+	}
+}
